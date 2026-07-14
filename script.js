@@ -24,17 +24,7 @@ const paymentNumbers = {
 };
 
 /* =========================================================
-   টেলিগ্রাম কনফিগারেশন
-   ⚠️ এখানে আপনার নিজের Bot Token এবং Chat ID বসান।
-   কীভাবে পাবেন তার গাইড নিচে কমেন্টে দেওয়া আছে।
-
-   ধাপ ১ (Bot Token): Telegram-এ @BotFather কে মেসেজ দিন →
-   /newbot কমান্ড দিন → নাম দিন → যে Token পাবেন সেটা এখানে বসান।
-   যেমন দেখতে হবে: "123456789:AAExampleTokenStringHere"
-
-   ধাপ ২ (Chat ID): আপনার তৈরি বটকে টেলিগ্রামে একটা মেসেজ পাঠান (যেমন "hi") →
-   ব্রাউজারে যান: https://api.telegram.org/bot<YOUR_TOKEN>/getUpdates →
-   সেখানে "chat":{"id": ...} এর ভেতরের নম্বরটাই আপনার CHAT_ID।
+   
    ========================================================= */
 const TELEGRAM_CONFIG = {
   BOT_TOKEN: "8847494455:AAE056LzE6VTinxkhdUcSb6rNf7QnLFap7c",   // <-- এখানে Bot Token বসান
